@@ -39,11 +39,11 @@ Follow these steps to install and set up Poetry for this project:
    Poetry is a Python package manager that simplifies dependency management and virtual environments. You can install Poetry by following their guide [here](https://python-poetry.org/docs/#installing-with-the-official-installer).
 2. Clone the repository
    ```shell
-   git clone git@github.com:mrarvind90/fcc-mean-var-std-calculator.git
+   git clone git@github.com:mrarvind90/fcc-demographic-data-analyzer.git
    ```
 3. Change into the Project Directory
    ```shell
-   cd mean-variance-std-calculator
+   cd fcc-demographic-data-analyzer
    ```
 4. Install Dependencies:
    ```shell
