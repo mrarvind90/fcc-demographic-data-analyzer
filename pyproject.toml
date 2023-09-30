@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fcc-demographic-data-analyzer"
+version = "1.0.0"
+description = "A Python program to analyze data from a 1994 census database from University of California, School of Information and Computer Science."
+authors = ["Arvindran Kalidas <arvindrankalidas@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+
+[tool.black]
+line-length = 120
+target-version=['py310']
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
